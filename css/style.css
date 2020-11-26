@@ -1,36 +1,35 @@
 ul {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6787b1;
-  
 }
 
-li {
-  text-align: right; 
-}
-
-li a {
+.nav-link a{
+  font-size: 20px;
+  font-family: sans-serif;
   display: block;
   color: white;
   text-align: right;
   padding: 14px 16px;
-  text-decoration: fuchsia;
-
+  text-decoration: none;
 }
 
 li a:hover {
-  text-align: right;
-  background-color: #black;
+  background-color: black;
 }
 .navbar{
-float: center;
+  background-color: #6787b1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 .logo-navbar{
-height: 138px;
+height: 100px;
 width: auto;
-float: left;
 }
 .family-home {
 margin: auto;
